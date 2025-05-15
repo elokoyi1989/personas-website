@@ -53,12 +53,12 @@ main {
     height: 100vh;
     margin-top: 120px; /* increased space for fixed header */
   }
-  section::before {
+  /* section::before {
   content: "";
   display: block;
-  height: 120px;        /* same height as your header */
+  height: 120px;       
   margin-top: -120px;
-  }
+  } */
   
   section {
     flex: none;
@@ -138,12 +138,6 @@ li {
   margin-bottom: 0.5rem;
 }
 
-/* .persona {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  max-width: 700px;
-} */
 
 .persona {
     display: flex;
@@ -165,7 +159,7 @@ li {
 }
 
 
-/* Normalize image sizes to natural proportions */
+/* Normalize image sizes */
 .frames img {
 
   max-width: 470px;
@@ -173,24 +167,14 @@ li {
   /* border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); */
 }
-/* .frames  */
+
 
 img {
-    max-width: 500px;  /* smaller, controlled size */
+    max-width: 500px;  
     height: auto;
     border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0,0,0,0.2); */
+
   }
   
 
-/* footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 1rem 0;
-  text-align: center;
-  color: #bbbbbb;
-  background: rgba(18,18,18,0.85);
-  z-index: 100;
-} */
+
